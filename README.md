@@ -80,8 +80,7 @@ This project is a **Windows Forms Application** developed in **C#** using **.NET
    ```
 6. Create the `teachers` table in your SQL Server database using the following schema:
    ```sql
-   CREATE TABLE teachers 
-  (
+   CREATE TABLE teachers (
     id int PRIMARY KEY IDENTITY(1,1),
     teacher_id VARCHAR(MAX) NULL,
     teacher_name VARCHAR(MAX) NULL,
@@ -92,7 +91,7 @@ This project is a **Windows Forms Application** developed in **C#** using **.NET
     date_insert DATE NULL,
     date_update DATE NULL,
     date_delete DATE NULL
-  );
+    );
 
    ```
 7. Create the `students` table in your SQL Server database using the following schema:
